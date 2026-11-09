@@ -1,0 +1,16 @@
+/* 犯人のサイト：ほんの少しだけ怪しい */
+body { margin: 0; min-height: 100vh; background: #0e0f12; color: #cfd3da; font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif; display: flex; align-items: center; justify-content: center; }
+.blank { text-align: center; }
+.muted { color: #555b66; font-size: .9em; }
+.captcha { width: min(420px, 92vw); background: #f9f9fb; color: #222; border-radius: 6px; box-shadow: 0 0 0 1px #2a2d33, 0 10px 40px rgba(0, 255, 140, .07); overflow: hidden; }
+.captcha-head { background: #1f6f4a; color: #fff; padding: 1em 1.2em; font-size: .95em; }
+.captcha-head strong { display: block; font-size: 1.2em; }
+.captcha-body { padding: 1.2em; }
+.captcha-row { display: flex; align-items: center; gap: .8em; border: 1px solid #d5d7dc; border-radius: 4px; padding: .8em 1em; background: #fff; }
+.captcha-row button { font: inherit; background: #1f6f4a; color: #fff; border: 0; border-radius: 4px; padding: .5em 1.4em; cursor: pointer; }
+.captcha-row .shield { font-size: 1.6em; }
+.steps { margin-top: 1em; background: #fff8e6; border: 1px solid #e6c97a; border-radius: 4px; padding: .6em 1em; }
+.steps ol { padding-left: 1.3em; margin: .4em 0; }
+kbd { background: #eee; border: 1px solid #bbb; border-bottom-width: 2px; border-radius: 3px; padding: 0 .35em; font-family: inherit; }
+.fine { font-size: .75em; color: #888; margin: .8em 0 0; }
+.ray { font-family: monospace; color: #777; font-size: .75em; }
